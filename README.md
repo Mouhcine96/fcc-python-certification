@@ -1,2 +1,4 @@
 # fcc-python-certification
-Python learning progress and projects (freeCodeCamp).
+
+This repository contains my learning progress, exercises, and projects
+from the freeCodeCamp Python certification path.
