@@ -28,3 +28,26 @@ print(greeting)
 
 # This would fail:
 # greeting[0] = "H"
+
+# String concatenation
+
+first_name = "Mouhcine"
+age = 29
+
+concat = first_name + " " + str(age)
+print(concat)
+
+# Augmented assignment
+text = first_name
+text += " "
+text += str(age)
+print(text)
+
+# f-string interpolation
+info = f"My name is {first_name} and I am {age} years old"
+print(info)
+
+# Expression in f-string
+a = 20
+b = 10
+print(f"The sum of {a} and {b} is {a + b}")
