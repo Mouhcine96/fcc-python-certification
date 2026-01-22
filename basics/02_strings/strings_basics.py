@@ -51,3 +51,61 @@ print(info)
 a = 20
 b = 10
 print(f"The sum of {a} and {b} is {a + b}")
+
+# String slicing
+
+text = "Hello world"
+
+print(text[1:4])    # ell
+print(text[:7])     # Hello w
+print(text[8:])     # rld
+print(text[:])      # Hello world
+
+# Step parameter
+print(text[0:11:2]) # Hlowrd
+
+# Reverse string
+print(text[::-1])   # dlrow olleH
+
+# =========================
+# Common String Methods
+# =========================
+
+text = "  hello world  "
+
+print("Original:", text)
+
+# strip() – remove leading/trailing whitespace
+clean = text.strip()
+print("strip():", clean)
+
+# upper() / lower()
+print("upper():", clean.upper())
+print("lower():", clean.lower())
+
+# capitalize() / title()
+print("capitalize():", clean.capitalize())
+print("title():", clean.title())
+
+# replace()
+print("replace():", clean.replace("world", "Python"))
+
+# split()
+words = clean.split()
+print("split():", words)
+
+# join()
+joined = "-".join(words)
+print("join():", joined)
+
+# startswith() / endswith()
+print("startswith('hello'):", clean.startswith("hello"))
+print("endswith('world'):", clean.endswith("world"))
+
+# find()
+print("find('world'):", clean.find("world"))
+
+# count()
+print("count('l'):", clean.count("l"))
+
+# isupper() /
